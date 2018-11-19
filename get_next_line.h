@@ -6,7 +6,7 @@
 /*   By: dde-jesu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/19 09:37:06 by dde-jesu          #+#    #+#             */
-/*   Updated: 2018/11/19 12:07:18 by dde-jesu         ###   ########.fr       */
+/*   Updated: 2018/11/19 13:33:07 by dde-jesu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <stddef.h>
 
-# define BUFF_SIZE 1
+# define BUFF_SIZE 4096
 
 int				get_next_line(const int fd, char **line);
 
